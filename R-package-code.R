@@ -118,5 +118,3 @@ if(!require(Matrix)) {
   install.packages("Matrix"); 
   require(Matrix)
 } #load / install+load Matrix
-
-# And now to update 
