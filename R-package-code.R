@@ -118,3 +118,9 @@ if(!require(Matrix)) {
   install.packages("Matrix"); 
   require(Matrix)
 } #load / install+load Matrix
+
+# installing/loading the package:
+if(!require(stargazer)) {
+  install.packages("stargazer"); 
+  require(stargazer)
+} #load / install+load stargazer
