@@ -42,6 +42,12 @@ if(!require(ggthemes)) {
 } #load / install+load ggthemes
 
 # installing/loading the package:
+if(!require(corrplot)) {
+  install.packages("corrplot"); 
+  require(corrplot)
+} #load / install+load corrplot
+
+# installing/loading the package:
 if(!require(shiny)) {
   install.packages("shiny"); 
   require(shiny)
